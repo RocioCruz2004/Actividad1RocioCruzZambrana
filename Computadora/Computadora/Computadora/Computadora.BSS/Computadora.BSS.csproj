@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Computadora.DAL\Computadora.DAL.csproj" />
+    <ProjectReference Include="..\Computadora.MODELOS\Computadora.MODELOS.csproj" />
+  </ItemGroup>
+
+</Project>

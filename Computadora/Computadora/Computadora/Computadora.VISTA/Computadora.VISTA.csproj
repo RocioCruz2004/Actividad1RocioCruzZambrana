@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Computadora.BSS\Computadora.BSS.csproj" />
+    <ProjectReference Include="..\Computadora.MODELOS\Computadora.MODELOS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ComputadoraVistas\" />
+  </ItemGroup>
+
+</Project>
